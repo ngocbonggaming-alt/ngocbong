@@ -20,17 +20,17 @@ const apps = [
         name: '<strong><em>Delta X VNG IOS Fix Lag ✅</em></strong>',
         url: 'https://sub2s.com/1785057275',
         img: 'https://i.postimg.cc/pXQNsVQs/IMG-3417.jpg',
-        descriptions: 'Link Cài Trực Tiếp V2.731 Cập Nhật Ngày 04/08/2026'
+        descriptions: 'Link Cài Trực Tiếp V2.731 Cập Nhật Ngày 05/08/2026'
     },{ 
         name: '<strong><em>Delta X Quốc Tế IOS  ✅</em></strong>',
         url: 'https://sub2s.com/1785207240',
         img: 'https://i.postimg.cc/wMkzwh26/IMG-4719.jpg',
-        descriptions: 'Link Cài Trực Tiếp V2.731 Cập Nhật Ngày 04/08/2026'
+        descriptions: 'Link Cài Trực Tiếp V2.731 Cập Nhật Ngày 05/08/2026'
     },{ 
         name: '<strong><em>Delta X Quốc Tế IOS Fix Lag  ✅</em></strong>',
         url: 'https://sub2s.com/1785126981',
         img: 'https://i.postimg.cc/wMkzwh26/IMG-4719.jpg',
-        descriptions: 'Link Cài Trực Tiếp V2.731 Cập Nhật Ngày 04/08/2026'
+        descriptions: 'Link Cài Trực Tiếp V2.731 Cập Nhật Ngày 05/08/2026'
     },{
         name: '<strong><em> MENU FF IOS ✅</em></strong>',
         url: 'https://sub2s.com/1785659897',
