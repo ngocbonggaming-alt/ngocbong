@@ -1,7 +1,27 @@
 // APP DATA CONFIGURATION
 
 const apps = [
-{
+{ 
+        name: '<strong><em>Delta X VNG IOS Bản Gốc ✅</em></strong>',
+        url: 'https://sub2s.com/1786401982',
+        img: 'https://i.postimg.cc/j5Pt7VJt/IMG-3155.jpg',
+        descriptions: 'Link Cài Trực Tiếp V2.733 Cập Nhật Ngày 11/08/2026'
+    },{ 
+        name: '<strong><em>Delta X VNG IOS Fix Lag ✅</em></strong>',
+        url: 'https://sub2s.com/1786402011',
+        img: 'https://i.postimg.cc/pXQNsVQs/IMG-3417.jpg',
+        descriptions: 'Link Cài Trực Tiếp V2.731 Cập Nhật Ngày 11/08/2026'
+    },{ 
+        name: '<strong><em>Delta X Quốc Tế IOS  ✅</em></strong>',
+        url: 'https://sub2s.com/1786402036',
+        img: 'https://i.postimg.cc/wMkzwh26/IMG-4719.jpg',
+        descriptions: 'Link Cài Trực Tiếp V2.733 Cập Nhật Ngày 11/08/2026'
+    },{ 
+        name: '<strong><em>Delta X Quốc Tế IOS Fix Lag  ✅</em></strong>',
+        url: 'https://sub2s.com/1786402080',
+        img: 'https://i.postimg.cc/wMkzwh26/IMG-4719.jpg',
+        descriptions: 'Link Cài Trực Tiếp V2.733 Cập Nhật Ngày 11/08/2026'
+    },{
         name: '<strong><em> MENU FF IOS ✅</em></strong>',
         url: 'https://sub2sunlock.blogspot.com/2026/05/link-tai-trong-video.html',
         img: 'https://i.postimg.cc/NfBCGPw3/1JSOL8E2V-AD5H4H.jpg',
@@ -16,26 +36,6 @@ const apps = [
         url: 'https://sub2s.com/1785382538',
         img: 'https://i.postimg.cc/Y05W9Pv8/IMG-4773.png',
         descriptions: 'Link Cài Trực Tiếp Cập Nhật Ngày 07/08/2026'
-    },{ 
-        name: '<strong><em>Delta X VNG IOS Bản Gốc ✅</em></strong>',
-        url: 'https://sub2s.com/1785904457',
-        img: 'https://i.postimg.cc/j5Pt7VJt/IMG-3155.jpg',
-        descriptions: 'Link Cài Trực Tiếp V2.731 Cập Nhật Ngày 07/08/2026'
-    },{ 
-        name: '<strong><em>Delta X VNG IOS Fix Lag ✅</em></strong>',
-        url: 'https://sub2s.com/1785057275',
-        img: 'https://i.postimg.cc/pXQNsVQs/IMG-3417.jpg',
-        descriptions: 'Link Cài Trực Tiếp V2.731 Cập Nhật Ngày 07/08/2026'
-    },{ 
-        name: '<strong><em>Delta X Quốc Tế IOS  ✅</em></strong>',
-        url: 'https://sub2s.com/1785207240',
-        img: 'https://i.postimg.cc/wMkzwh26/IMG-4719.jpg',
-        descriptions: 'Link Cài Trực Tiếp V2.731 Cập Nhật Ngày 07/08/2026'
-    },{ 
-        name: '<strong><em>Delta X Quốc Tế IOS Fix Lag  ✅</em></strong>',
-        url: 'https://sub2s.com/1785126981',
-        img: 'https://i.postimg.cc/wMkzwh26/IMG-4719.jpg',
-        descriptions: 'Link Cài Trực Tiếp V2.731 Cập Nhật Ngày 07/08/2026'
     },{
         name: '<strong><em> MENU 8 Ball Pool IOS ✅</em></strong>',
         url: 'https://sub2s.com/1785066381',
