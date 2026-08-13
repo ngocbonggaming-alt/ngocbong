@@ -2,6 +2,11 @@
 
 const apps = [
 {
+        name: '<strong><em> Minecraft PE IOS ✅</em></strong>',
+        url: 'https://ipas.cc/ksgo1z',
+        img: 'https://i.postimg.cc/Y05W9Pv8/IMG-4773.png',
+        descriptions: 'Link Cài Trực Tiếp Cập Nhật Ngày 13/08/2026'
+    },{
         name: '<strong><em> MENU Liên Quân IOS ✅</em></strong>',
         url: 'https://ipas.cc/r83jfd',
         img: 'https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/f9/70/7ff970e7-3b59-b769-34b5-e18c10e48990/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/512x512bb.jpg',
@@ -31,11 +36,6 @@ const apps = [
         url: 'https://sub2sunlock.blogspot.com/2026/05/link-tai-trong-video.html',
         img: 'https://i.postimg.cc/NfBCGPw3/1JSOL8E2V-AD5H4H.jpg',
         descriptions: 'Link Cài Trực Tiếp Cập Nhật Ngày 09/08/2026'
-    },{
-        name: '<strong><em> Minecraft PE IOS ✅</em></strong>',
-        url: 'https://sub2s.com/1785382538',
-        img: 'https://i.postimg.cc/Y05W9Pv8/IMG-4773.png',
-        descriptions: 'Link Cài Trực Tiếp Cập Nhật Ngày 07/08/2026'
     },{
         name: '<strong><em> MENU 8 Ball Pool IOS ✅</em></strong>',
         url: 'https://sub2s.com/1785066381',
