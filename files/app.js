@@ -5,22 +5,22 @@ const apps = [
         name: '<strong><em>Delta X VNG IOS Bản Gốc ✅</em></strong>',
         url: 'https://tinyurl.com/4fdn9w8u',
         img: 'https://i.postimg.cc/j5Pt7VJt/IMG-3155.jpg',
-        descriptions: 'Link Cài Trực Tiếp V2.733 Cập Nhật Ngày 12/08/2026'
+        descriptions: 'Link Cài Trực Tiếp V2.733 Cập Nhật Ngày 13/08/2026'
     },{ 
         name: '<strong><em>Delta X VNG IOS Fix Lag ✅</em></strong>',
-        url: 'https://tinyurl.com/mr3ty348',
+        url: 'https://tinyurl.com/yba9az2w',
         img: 'https://i.postimg.cc/pXQNsVQs/IMG-3417.jpg',
-        descriptions: 'Link Cài Trực Tiếp V2.733 Cập Nhật Ngày 12/08/2026'
+        descriptions: 'Link Cài Trực Tiếp V2.733 Cập Nhật Ngày 13/08/2026'
     },{ 
         name: '<strong><em>Delta X Quốc Tế IOS  ✅</em></strong>',
         url: 'https://tinyurl.com/5n68drmk',
         img: 'https://i.postimg.cc/wMkzwh26/IMG-4719.jpg',
-        descriptions: 'Link Cài Trực Tiếp V2.733 Cập Nhật Ngày 12/08/2026'
+        descriptions: 'Link Cài Trực Tiếp V2.733 Cập Nhật Ngày 13/08/2026'
     },{ 
         name: '<strong><em>Delta X Quốc Tế IOS Fix Lag  ✅</em></strong>',
-        url: 'https://tinyurl.com/yba9az2w',
+        url: 'https://tinyurl.com/mr3ty348',
         img: 'https://i.postimg.cc/wMkzwh26/IMG-4719.jpg',
-        descriptions: 'Link Cài Trực Tiếp V2.733 Cập Nhật Ngày 12/08/2026'
+        descriptions: 'Link Cài Trực Tiếp V2.733 Cập Nhật Ngày 13/08/2026'
     },{
         name: '<strong><em> MENU FF IOS ✅</em></strong>',
         url: 'https://sub2sunlock.blogspot.com/2026/05/link-tai-trong-video.html',
