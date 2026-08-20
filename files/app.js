@@ -3,7 +3,7 @@
 const apps = [
 {
         name: '<strong><em> App Cài Data FF 3105 ✅</em></strong>',
-        url: 'https://sub2s.com/1787110685',
+        url: 'https://fnote.me/edit/cZz78k?t=true',
         img: 'https://sf-static.upanhlaylink.com/img/image_20260819dd0b4179f773b4c91a236b9f4362cbb0.jpg',
         descriptions: 'Link Cài Trực Tiếp App 3105 Cập Nhật Ngày 20/08/2026'
     },{
