@@ -1,7 +1,12 @@
 // APP DATA CONFIGURATION
 
 const apps = [
-{
+{ 
+        name: '<strong><em>Delta X Quốc Tế IOS  ✅</em></strong>',
+        url: 'https://sub2s.com/1787404523',
+        img: 'https://i.postimg.cc/wMkzwh26/IMG-4719.jpg',
+        descriptions: 'Chứng Chỉ Mới Cập Nhật Ngày 22/08/2026'
+    },{
         name: '<strong><em> App Cài Data FF 3105 ✅</em></strong>',
         url: 'https://www.ngocbonggaming.io.vn/2026/08/tai-app-data-fire-file-3105-ban-moi-nhat.html',
         img: 'https://sf-static.upanhlaylink.com/img/image_20260819dd0b4179f773b4c91a236b9f4362cbb0.jpg',
@@ -35,11 +40,6 @@ const apps = [
         name: '<strong><em>Delta X VNG IOS Fix Lag ✅</em></strong>',
         url: 'https://tinyurl.com/yba9az2w',
         img: 'https://i.postimg.cc/pXQNsVQs/IMG-3417.jpg',
-        descriptions: 'Link Cài Trực Tiếp V2.733 Cập Nhật Ngày 20/08/2026'
-    },{ 
-        name: '<strong><em>Delta X Quốc Tế IOS  ✅</em></strong>',
-        url: 'https://tinyurl.com/5n68drmk',
-        img: 'https://i.postimg.cc/wMkzwh26/IMG-4719.jpg',
         descriptions: 'Link Cài Trực Tiếp V2.733 Cập Nhật Ngày 20/08/2026'
     },{ 
         name: '<strong><em>Delta X Quốc Tế IOS Fix Lag  ✅</em></strong>',
