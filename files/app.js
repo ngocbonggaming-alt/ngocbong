@@ -3,7 +3,7 @@
 const apps = [
 { 
         name: '<strong><em>Delta X Quốc Tế IOS  ✅</em></strong>',
-        url: 'https://sub2s.com/1787404523',
+        url: 'https://tinyurl.com/3succ93f',
         img: 'https://i.postimg.cc/wMkzwh26/IMG-4719.jpg',
         descriptions: 'Chứng Chỉ Mới Cập Nhật Ngày 22/08/2026'
     },{
