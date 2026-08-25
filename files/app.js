@@ -2,14 +2,19 @@
 
 const apps = [
 { 
-        name: '<strong><em>Delta X VNG IOS ✅</em></strong>',
-        url: 'https://ipas.cc/f80pgl',
-        img: 'https://i.postimg.cc/j5Pt7VJt/IMG-3155.jpg',
-        descriptions: 'Link Cài Trực Tiếp V2.735 Cập Nhật Ngày 25/08/2026'
-    },{ 
         name: '<strong><em>Delta X Quốc Tế IOS  ✅</em></strong>',
         url: 'https://ipas.cc/e157z0',
         img: 'https://i.postimg.cc/wMkzwh26/IMG-4719.jpg',
+        descriptions: 'Link Cài Trực Tiếp V2.735 Cập Nhật Ngày 25/08/2026'
+    },{ 
+        name: '<strong><em>Delta X Quốc Tế IOS Fix Lag  ✅</em></strong>',
+        url: 'https://tinyurl.com/mr3ty348',
+        img: 'https://i.postimg.cc/wMkzwh26/IMG-4719.jpg',
+        descriptions: 'Link Cài Trực Tiếp V2.733 Cập Nhật Ngày 25/08/2026'
+    },{ 
+        name: '<strong><em>Delta X VNG IOS ✅</em></strong>',
+        url: 'https://ipas.cc/f80pgl',
+        img: 'https://i.postimg.cc/j5Pt7VJt/IMG-3155.jpg',
         descriptions: 'Link Cài Trực Tiếp V2.735 Cập Nhật Ngày 25/08/2026'
     },{
         name: '<strong><em> MENU FF IOS ✅</em></strong>',
