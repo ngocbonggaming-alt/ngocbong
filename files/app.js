@@ -23,9 +23,9 @@ const apps = [
         descriptions: 'Link Cài Trực Tiếp V2.735 Cập Nhật Ngày 25/08/2026'
     },{
         name: '<strong><em> MENU FF IOS ✅</em></strong>',
-        url: 'https://ipas.cc/wq2a92',
+        url: 'https://ipas.cc/2bwnw7',
         img: 'https://i.postimg.cc/NfBCGPw3/1JSOL8E2V-AD5H4H.jpg',
-        descriptions: 'Link Cài Trực Tiếp Cập Nhật Ngày 24/08/2026'
+        descriptions: 'Link Cài Trực Tiếp Cập Nhật Ngày 25/08/2026'
     },,{
         name: '<strong><em> App Cài Data FF 3105 ✅</em></strong>',
         url: 'https://www.ngocbonggaming.io.vn/2026/08/tai-app-data-fire-file-3105-ban-moi-nhat.html',
