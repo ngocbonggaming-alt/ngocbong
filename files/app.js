@@ -8,7 +8,7 @@ const apps = [
         descriptions: 'Link Cài Trực Tiếp V2.735 Cập Nhật Ngày 25/08/2026'
     },{ 
         name: '<strong><em>Delta X Quốc Tế IOS Fix Lag  ✅</em></strong>',
-        url: 'https://tinyurl.com/mr3ty348',
+        url: 'https://ipas.cc/k4jroo',
         img: 'https://i.postimg.cc/wMkzwh26/IMG-4719.jpg',
         descriptions: 'Link Cài Trực Tiếp V2.733 Cập Nhật Ngày 25/08/2026'
     },{ 
