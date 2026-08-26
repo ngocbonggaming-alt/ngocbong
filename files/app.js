@@ -10,7 +10,7 @@ const apps = [
         name: '<strong><em>Delta X Quốc Tế IOS Fix Lag  ✅</em></strong>',
         url: 'https://ipas.cc/k4jroo',
         img: 'https://i.postimg.cc/wMkzwh26/IMG-4719.jpg',
-        descriptions: 'Link Cài Trực Tiếp V2.733 Cập Nhật Ngày 26/08/2026'
+        descriptions: 'Link Cài Trực Tiếp V2.735 Cập Nhật Ngày 26/08/2026'
     },{ 
         name: '<strong><em>Delta X VNG IOS ✅</em></strong>',
         url: 'https://ipas.cc/4m5b96',
