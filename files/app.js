@@ -1,7 +1,12 @@
 // APP DATA CONFIGURATION
 
 const apps = [
-{ 
+{
+        name: '<strong><em> App Cài Data FF 3105 ✅</em></strong>',
+        url: 'https://fnote.me/edit/61hN8x?t=true',
+        img: 'https://sf-static.upanhlaylink.com/img/image_20260823bf149a912a22fa5b067b7e13d7eb6a8d.jpg',
+        descriptions: 'Link Cài Trực Tiếp App 3105 Cập Nhật Ngày 27/08/2026'
+    },{ 
         name: '<strong><em>Delta X Quốc Tế IOS  ✅</em></strong>',
         url: 'https://ipas.cc/e157z0',
         img: 'https://i.postimg.cc/wMkzwh26/IMG-4719.jpg',
@@ -26,11 +31,6 @@ const apps = [
         url: 'https://ipas.cc/2bwnw7',
         img: 'https://i.postimg.cc/NfBCGPw3/1JSOL8E2V-AD5H4H.jpg',
         descriptions: 'Link Cài Trực Tiếp Cập Nhật Ngày 25/08/2026'
-    },,{
-        name: '<strong><em> App Cài Data FF 3105 ✅</em></strong>',
-        url: 'https://www.ngocbonggaming.io.vn/2026/08/tai-app-data-fire-file-3105-ban-moi-nhat.html',
-        img: 'https://sf-static.upanhlaylink.com/img/image_20260823bf149a912a22fa5b067b7e13d7eb6a8d.jpg',
-        descriptions: 'Link Cài Trực Tiếp App 3105 Cập Nhật Ngày 24/08/2026'
     },{
         name: '<strong><em> MENU Liên Quân IOS ✅</em></strong>',
         url: 'https://ipas.cc/gwjqmr',
