@@ -1,0 +1,361 @@
+/* Khởi tạo cơ bản */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Nền Gradient màu hồng nhạt sáng và chuyển động mượt mà */
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(-45deg, #fff1f2, #ffe4e6, #fce7f3, #fff1f2); /* Các tông hồng nhạt pastel sáng */
+    background-size: 400% 400%;
+    animation: gradientAnimation 12s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Khung chứa nội dung chính */
+.container {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    margin: auto;
+}
+
+body {
+    color: #4c0519; /* Màu chữ hồng đen/nâu đậm để nổi bật trên nền sáng */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Thông tin Profile */
+.profile .avatar {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: 3px solid #f43f5e; /* Viền hồng đậm */
+    object-fit: cover;
+    margin-bottom: 16px;
+    box-shadow: 0 8px 24px rgba(244, 63, 94, 0.2); /* Đổ bóng hồng nhẹ */
+}
+
+.profile h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #881337; /* Màu hồng đậm quý phái */
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.profile .bio {
+    font-size: 0.95rem;
+    color: #9d174d; /* Màu chữ phụ phụ */
+    margin-bottom: 32px;
+}
+
+/* Danh sách các nút */
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+/* Thiết kế nút bấm phong cách kính mờ trên nền sáng */
+.link-card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    background: rgba(255, 255, 255, 0.6); /* Tăng độ trắng để nổi trên nền hồng */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: #4c0519; /* Chữ màu đậm dễ đọc */
+    text-decoration: none;
+    padding: 14px 20px;
+    border-radius: 16px;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 4px 12px rgba(244, 63, 94, 0.05); /* Đổ bóng hồng mịn */
+}
+
+/* --- 1. Cấu hình ảnh icon TO ẤN TƯỢNG (60px) --- */
+.link-icon {
+    width: 60px;          /* Kích thước chính xác 60px theo yêu cầu */
+    height: 60px;         /* Giữ tỉ lệ vuông/tròn 60px */
+    object-fit: cover;    /* Cắt ảnh chuẩn nét, không bị bóp méo hình */
+    border-radius: 50%;   /* Bo tròn 100% thành hình tròn hoàn hảo */
+    border: 3px solid rgba(244, 63, 94, 0.3); /* Viền hồng sắc nét, cao cấp */
+    background-color: #fff; /* Nền trắng phía sau icon */
+    flex-shrink: 0;       /* Khóa kích thước, không cho icon bị bóp nhỏ khi chữ dài */
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+/* --- 2. Điều chỉnh lại nút bấm để ôm trọn bộ icon 60px --- */
+.link-card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;            /* Khoảng cách rộng rãi giữa icon to và khối chữ bên phải */
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: #4c0519;
+    text-decoration: none;
+    padding: 16px 24px;   /* Padding dày dặn giúp nút bấm cân đối với icon */
+    border-radius: 22px;  /* Bo góc nút lớn hơn tạo cảm giác mềm mại, hiện đại */
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 6px 16px rgba(244, 63, 94, 0.06);
+}
+
+/* --- 3. Căn chữ xếp dọc song song thẳng hàng lề trái --- */
+.link-content {
+    display: flex;
+    flex-direction: column;   /* Xếp dọc: Tiêu đề ở trên, Ngày tháng ở dưới */
+    align-items: flex-start;  /* Căn thẳng hàng lề trái kịch cột cho cả 2 dòng chữ */
+    justify-content: center;  /* Căn cụm chữ nằm chính giữa theo chiều dọc của icon */
+    gap: 6px;                 /* Khoảng cách song song mượt mà giữa dòng trên và dòng dưới */
+    width: 100%;
+}
+
+/* Hàng tiêu đề chính (Hiển thị ở dòng trên) */
+.link-main {
+    display: flex;
+    align-items: center;      /* Căn giữa chữ tiêu đề và huy hiệu NEW */
+    gap: 8px;
+    font-weight: 600;
+    font-size: 1.12rem;       /* Kích thước chữ lớn, rõ ràng cân xứng với icon 60px */
+    color: #4c0519;
+}
+
+/* Dòng hiển thị ngày tháng cập nhật in đậm (Hiển thị ở dòng dưới) */
+.update-date {
+    font-size: 0.75rem;       /* Cỡ chữ nhỏ tinh tế, làm nền cho tiêu đề chính */
+    color: #be123c;
+    font-weight: 700;         /* Giữ nguyên in đậm đậm nét */
+    letter-spacing: 0.3px;
+    transition: color 0.3s ease;
+}
+
+/* Huy hiệu thông báo màu hồng-cam ngọt ngào */
+.badge-pulse {
+    background: linear-gradient(135deg, #f43f5e, #fb923c);
+    color: white;
+    font-size: 0.65rem;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    box-shadow: 0 0 8px rgba(244, 63, 94, 0.4);
+    animation: pulseEffect 1.8s infinite ease-in-out;
+}
+
+@keyframes pulseEffect {
+    0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(244, 63, 94, 0.5); }
+    70% { transform: scale(1.05); box-shadow: 0 0 0 6px rgba(244, 63, 94, 0); }
+    100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(244, 63, 94, 0); }
+}
+
+/* Hiệu ứng khi rê chuột vào nút (Chuyển sang màu hồng ngọt) */
+.link-card:hover {
+    background: linear-gradient(135deg, #f43f5e, #fda4af); /* Gradient hồng đậm sang hồng phấn */
+    color: #ffffff;
+    transform: translateX(6px);
+    border-color: transparent;
+    box-shadow: 0 10px 20px rgba(244, 63, 94, 0.25);
+}
+
+/* Đổi màu chữ và ngày tháng sang trắng khi hover nút */
+.link-card:hover .link-main {
+    color: #ffffff;
+}
+
+.link-card:hover .update-date {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.link-card:hover .link-icon {
+    transform: scale(1.1);
+    border-color: #ffffff;
+}
+
+/* Chân trang */
+.footer {
+    font-size: 0.8rem;
+    color: #9d174d;
+}
+/* ==========================================================================
+   CẤU TRÚC GIAO DIỆN NỀN TẢNG (HIỂN THỊ CHUẨN TRÊN MÁY TÍNH & TABLET)
+   ========================================================================== */
+
+/* Khung chứa các nút bấm */
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+/* Thiết kế nút bấm theo hàng ngang, căn lề trái */
+.link-card {
+    display: flex;
+    align-items: center;       /* Căn giữa icon và khối chữ theo chiều dọc */
+    justify-content: flex-start;/* Đẩy toàn bộ nội dung về sát lề trái */
+    gap: 20px;                 /* Khoảng cách an toàn giữa icon 60px và khối chữ */
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* Tương thích mượt với trình duyệt Safari của iOS */
+    color: #4c0519;
+    text-decoration: none;
+    padding: 16px 24px;
+    border-radius: 22px;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 4px 12px rgba(244, 63, 94, 0.05);
+    width: 100%;
+}
+
+/* Ảnh icon To ấn tượng kích thước 60px */
+.link-icon {
+    width: 60px;               /* Khởi tạo 60px chuẩn mực */
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;        /* Bo tròn 100% */
+    border: 2px solid rgba(244, 63, 94, 0.3);
+    background-color: #fff;
+    flex-shrink: 0;            /* Ngăn chặn tình trạng icon bị méo khi xem trên màn hình hẹp */
+}
+
+/* Khối văn bản: Tiêu đề ở trên, Ngày tháng song song kịch lề trái ở dưới */
+.link-content {
+    display: flex;
+    flex-direction: column;    /* Chuyển sang hàng dọc: Dòng trên & Dòng dưới */
+    align-items: flex-start;   /* ÉP THẲNG HÀNG LỀ TRÁI SONG SONG TUYỆT ĐỐI */
+    justify-content: center;   /* Căn cụm chữ nằm giữa chiều cao của icon */
+    gap: 4px;                  /* Khoảng cách song song mượt mà giữa dòng trên và dòng dưới */
+    width: 100%;
+    text-align: left;          /* Đảm bảo chữ luôn canh lề trái */
+}
+
+/* Dòng trên: Tiêu đề + Huy hiệu NEW */
+.link-main {
+    display: flex;
+    align-items: center;       /* Căn giữa chữ tiêu đề và huy hiệu NEW */
+    gap: 8px;
+    font-weight: 700;          /* In đậm tiêu đề chính */
+    font-size: 1.15rem;
+    color: #4c0519;
+}
+
+/* Dòng dưới: Ngày tháng cập nhật (In đậm hoàn toàn) */
+.update-date {
+    font-size: 0.78rem;
+    color: #ef4444;            /* Màu đỏ nổi bật cho dòng chữ cập nhật giống ảnh mẫu */
+    font-weight: 700;          /* In đậm hoàn toàn theo yêu cầu */
+    letter-spacing: 0.2px;
+}
+
+/* Huy hiệu Pulse NEW nhấp nháy phát sáng */
+.badge-pulse {
+    background: linear-gradient(135deg, #ef4444, #f97316);
+    color: white;
+    font-size: 0.65rem;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    animation: pulseEffect 1.8s infinite ease-in-out;
+}
+
+@keyframes pulseEffect {
+    0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.5); }
+    70% { transform: scale(1.05); box-shadow: 0 0 0 6px rgba(239, 68, 68, 0); }
+    100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+}
+
+
+/* ==========================================================================
+   MÃ TỐI ƯU RESPONSIVE ĐỘC QUYỀN CHO THIẾT BỊ DI ĐỘNG (ANDROID & IOS)
+   ========================================================================== */
+
+@media (max-width: 480px) {
+    /* Thu gọn vùng trống biên ngoài điện thoại */
+    body {
+        padding: 12px;
+    }
+
+    /* Tối ưu kích thước nút bấm trên màn hình điện thoại cảm ứng */
+    .link-card {
+        padding: 12px 16px;    /* Thu nhỏ padding để tăng diện tích hiển thị chữ */
+        gap: 14px;             /* Giảm khoảng cách giữa icon và chữ xuống */
+        border-radius: 16px;
+    }
+
+    /* Thu nhỏ tỷ lệ icon từ 60px xuống 52px để nhường chỗ cho dòng chữ dài trên mobile */
+    .link-icon {
+        width: 52px;
+        height: 52px;
+    }
+
+    /* Thu gọn cỡ chữ giúp giao diện hiển thị gọn gàng trên 1 dòng, không bị tràn viền */
+    .link-main {
+        font-size: 1rem;       /* Cỡ chữ tiêu đề tối ưu cho mobile */
+        gap: 6px;
+    }
+
+    .update-date {
+        font-size: 0.7rem;     /* Dòng text cập nhật nhỏ gọn, song song sắc nét */
+    }
+}
+
+/* Tối ưu bổ sung cho các dòng điện thoại kích thước siêu nhỏ (iPhone SE hoặc Android đời cũ dưới 360px) */
+@media (max-width: 360px) {
+    .link-card {
+        padding: 10px 12px;
+        gap: 10px;
+    }
+    .link-icon {
+        width: 46px;           /* Thu nhỏ nhẹ icon để bảo vệ dòng chữ không bị vỡ bố cục */
+        height: 46px;
+    }
+    .link-main {
+        font-size: 0.95rem;
+    }
+    .update-date {
+        font-size: 0.65rem;
+    }
+}
+
+/* Loại bỏ hoàn toàn lỗi dính hiệu ứng Hover chuột trên hệ điều hành iOS/Android */
+@media (hover: none) {
+    .link-card:hover {
+        transform: none;
+        background: rgba(255, 255, 255, 0.65);
+    }
+    /* Chuyển đổi sang hiệu ứng nhấn nút lún vật lý (Active UX) cao cấp khi ngón tay chạm vào */
+    .link-card:active {
+        background: linear-gradient(135deg, #f43f5e, #fda4af);
+        color: #ffffff;
+        transform: scale(0.97);
+    }
+    .link-card:active .link-main { color: #ffffff; }
+    .link-card:active .update-date { color: rgba(255, 255, 255, 0.9); }
+}
